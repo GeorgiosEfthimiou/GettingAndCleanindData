@@ -63,4 +63,4 @@ for(i in 1:subjectLen) {
                 row <- row + 1
         }
 }
-write.table(tidyDataMean, "tidy_data.txt", row.name=FALSE)
+write.table(tidyDataMean, "tidy_data.txt", row.name = FALSE)
