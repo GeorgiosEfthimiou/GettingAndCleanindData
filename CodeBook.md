@@ -12,9 +12,9 @@ A full description of the data set is available there.
   6. Clean the column names of the previous subset. In more detail, remove "()" and "-" and replace "mean" with "Mean" and "std" with "Std".
   7. Read "./data/activity_labels.txt" and store it in the activity variable.
   8. Clean the activity names by making them to lower cases.
-  9. Transform dataLabel according to the activity variable and add a title to the second column of activity data set.
+  9. Transform dataLabel according to the activity variable and add a title to the second column of the activity data set.
   10. Add a title to the dataSubject data set.
   11. Replace the dataSet variable names with more descriptive ones. In more detail, replace "t" with "time", "f" with "frequency", "Acc" with "Accelometer", "Gyro" with "Gyroscope" and "Mag" with "Magnitude".
   12. Bind (by columns) all three dataSubject, dataLabel and dataSet to create tidyData.
-  13. Isolate all 30 unique subjects and 6 unique activities and use them to create a new tidy data set containing the average of each variable for each activity and each subject. To 
-  14. Save the tidyDataMean to "tidy_data.txt"
+  13. Isolate all 30 unique subjects and 6 unique activities and use them to create a new tidy data set containing the average of each variable for each activity and each subject. To get this data set, we perform a nested for-loop.
+  14. Save the tidyDataMean to "tidy_data.txt".
